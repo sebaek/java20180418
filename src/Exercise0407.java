@@ -14,6 +14,7 @@ public class Exercise0407 {
 			System.out.println("----------------------------------");
 			System.out.println("선택> ");
 			String input = scanner.nextLine();
+			System.out.println("input의 길이 : " + input.length());
 			int money = 0;
 			switch (input) {
 			case "1":
