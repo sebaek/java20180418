@@ -34,5 +34,7 @@ public class HashTableExample {
 				System.out.println("입력하신 아이디가 존재하지 않습니다.");
 			}
 		}
+		
+		scanner.close();
 	}
 }
