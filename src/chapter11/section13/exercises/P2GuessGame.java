@@ -1,11 +1,11 @@
-package chapter11.section13;
+package chapter11.section13.exercises;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessGame {
+public class P2GuessGame {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int number = new Random().nextInt(100) + 1;

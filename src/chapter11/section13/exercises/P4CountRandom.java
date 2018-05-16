@@ -1,10 +1,10 @@
-package chapter11.section13;
+package chapter11.section13.exercises;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class CountRandom {
+public class P4CountRandom {
 	public static void main(String[] args) {
 		List<Integer> list = new ArrayList<>();
 		Random random = new Random();
