@@ -21,6 +21,26 @@ public class P6FindSum {
 
 		// 더해서 15가 되는 두 수가 있는 지 찾으세요.
 		// 있으면 두 수 출력. 없으면 없다고 출력.
+		int left = 0;
+		int right = list.size()-1;
+		boolean find = false;
+		while (left < right) {
+			int num = list.get(left) + list.get(right);
+			if (num == findSumValue) {
+				System.out.println(list.get(left) + ", " + list.get(right));
+				right--;
+				left++;
+				find = true;
+			} else if (num > findSumValue) {
+				right--;
+			} else {
+				left++;
+			}
+		}
+		
+		if (!find) {
+			System.out.println("더해서 " + findSumValue + "가 되는 두 수가 없습니다.");
+		}
 	}
 
 }
