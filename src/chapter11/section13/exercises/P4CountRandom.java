@@ -29,3 +29,11 @@ public class P4CountRandom {
 		System.out.println(map);
 	}
 }
+
+
+
+
+
+
+
+
